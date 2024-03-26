@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 today = date.today()
 t=time.localtime()
 current_time=time.strftime("_H%H_M%M_S%S",t)
-fn="SL_"+str(today)+current_time+".csv"
+fn="AD_"+str(today)+current_time+".csv"
 f=open(fn,'w',encoding="utf-8")
 start = time.time()
 
